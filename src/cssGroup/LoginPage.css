@@ -1,0 +1,71 @@
+.main-container{
+    background-color: rgb(47,136,255);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Untuk menyusun konten secara horizontal */
+    align-items: center;
+}
+@media (min-width: 600px) and (max-width: 900px) {
+    .outer-box{
+        background: rgb(145,112,11);
+background: linear-gradient(180deg, rgba(145,112,11,1) 0%, rgba(209,176,111,1) 27%, rgba(184,139,57,1) 56%, rgba(196,128,0,1) 100%);
+        width: 400px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Untuk menyusun konten secara horizontal */
+        align-items: center;
+        border-radius:1cap
+    }
+    .bkn-cat-logo{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin-top: -20%;
+    }
+    .bkn-cat-logo img{
+        width: 80%;
+        border-radius: 50%; /* Membuat gambar dan border berbentuk bulat */
+        border: 10px solid #639ed4; /* Border dengan ketebalan 5px dan warna hitam */
+        overflow: hidden;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        height: 300px;
+    }
+    .input-group{
+        display: flex;
+        flex-direction: column;
+    }
+    .inputan{
+        height: 40px;
+        border-radius: 5px;
+        border: 0;
+    }
+    .button-group{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .form-btn{
+        width: 80%;
+        height: 30px;
+        background-color: #0c3177;
+        color: #ffffff;margin: 2px;
+        font-size: smaller;
+    }
+    .GagalLogin{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20px;
+    }
+    
+    #GagalLogin{
+        font-size: 20px;
+    }
+}
