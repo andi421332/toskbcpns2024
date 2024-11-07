@@ -8,6 +8,9 @@
 
 
 @media (min-width: 550px) and (max-width: 900px) {
+    .Test-NamaPeserta h1{
+        color: black;
+    }
     .hasilSkor{
         background-color: #e0e0e0;
         height: 50px;
@@ -47,7 +50,7 @@
         align-items: center;
     }
     .Test-Timer h1{
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
     .Test-Timer-Wrapper{
         display: flex;
@@ -119,8 +122,8 @@
         color: white;
     }
     .button-number {
-        width: 50px;
-        height: 25px;
+        width: 25px;
+        height: 20px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -152,6 +155,12 @@
     .correct-answer {
         background-color: red;
         color: white;
+    }
+    #timerId{
+        color: black;
+    }
+    .Soal-json h2{
+        color: black;
     }
     
 }    
