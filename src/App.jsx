@@ -5,8 +5,8 @@ import ScorePage from './ScorePage';
 
 function App() {
     return (
-        <Router>
-            <Routes>
+        <Router basename={import.meta.env.BASE_URL}>
+            <Routes >
                 <Route path="/" element={<TestPage />} />
                 <Route path="/score" element={<ScorePage />} />
             </Routes>
