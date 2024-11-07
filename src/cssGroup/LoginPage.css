@@ -6,7 +6,7 @@
     justify-content: center; /* Untuk menyusun konten secara horizontal */
     align-items: center;
 }
-@media (min-width: 600px) and (max-width: 900px) {
+@media (min-width: 550px) and (max-width: 900px) {
     .outer-box{
         background: rgb(145,112,11);
 background: linear-gradient(180deg, rgba(145,112,11,1) 0%, rgba(209,176,111,1) 27%, rgba(184,139,57,1) 56%, rgba(196,128,0,1) 100%);
